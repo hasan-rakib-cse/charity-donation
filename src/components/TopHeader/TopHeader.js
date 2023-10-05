@@ -9,17 +9,17 @@ const TopHeader = () => {
     
 <div className="container-fluid">
   <div className="row">
-      <div className="col-md-4">
+      <div className="col-12 col-md-4">
            <div className="headerText">
                <h2>Rakib-Charity)Found</h2>
            </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-12 col-md-4">
          <div className="logo">
              <img src={logo} alt=""/>
          </div>
       </div>
-      <div className="col-md-3">
+      <div className="col-12 col-md-4">
          <div className="header-btn">
             <button className="btn ">Total Budget : $50,000</button>
          </div>

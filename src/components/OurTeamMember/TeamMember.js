@@ -21,12 +21,12 @@ const TeamMember = () => {
 
     <div className="row">
         
-        <div className="col-md-4">
+        <div className="col-12 col-md-4">
             <div className="team-member">
                 <img src={team1} alt="" />
                
                 <div className="another">
-                    <h2>Mr. Hasan</h2>
+                    <h2>Rakib</h2>
                     <p>CEO</p>
                     <ul className="social-icon2">
                         <li><i className="fab fa-facebook-f"></i></li>
@@ -36,47 +36,44 @@ const TeamMember = () => {
                     </ul>
                 </div>    
 
-           
             </div>
        </div>
 
-    <div className="col-md-4">
-    <div className="team-member">
-        <img src={team3} alt="" />
-       
-        <div className="another">
-            <h2>Mr. Anik</h2>
-            <p>Voluntree</p>
-            <ul className="social-icon2">
-                <li><i className="fab fa-facebook-f"></i></li>
-                <li><i className="fab fa-twitter"></i></li>
-                <li><i className="fab fa-linkedin"></i></li>
-                <li><i className="fab fa-youtube"></i></li>
-            </ul>
-        </div>    
+        <div className="col-12 col-md-4">
+            <div className="team-member">
+                <img src={team3} alt="" />
+            
+                <div className="another">
+                    <h2>Hasan</h2>
+                    <p>Voluntree</p>
+                    <ul className="social-icon2">
+                        <li><i className="fab fa-facebook-f"></i></li>
+                        <li><i className="fab fa-twitter"></i></li>
+                        <li><i className="fab fa-linkedin"></i></li>
+                        <li><i className="fab fa-youtube"></i></li>
+                    </ul>
+                </div>    
 
-   
-    </div>
-  </div>
-
-       <div className="col-md-4">
-        <div className="team-member">
-            <img src={team2} alt="" />
-           
-            <div className="another">
-                <h2>Mr. Khan</h2>
-                <p>Voluntree</p>
-                <ul className="social-icon2">
-                <li><i className="fab fa-facebook-f"></i></li>
-                <li><i className="fab fa-twitter"></i></li>
-                <li><i className="fab fa-linkedin"></i></li>
-                <li><i className="fab fa-youtube"></i></li>
-                </ul>
-            </div>    
-
-       
+            </div>
         </div>
-   </div>
+
+        <div className="col-12 col-md-4">
+            <div className="team-member">
+                <img src={team2} alt="" />
+            
+                <div className="another">
+                    <h2>Khan</h2>
+                    <p>Voluntree</p>
+                    <ul className="social-icon2">
+                    <li><i className="fab fa-facebook-f"></i></li>
+                    <li><i className="fab fa-twitter"></i></li>
+                    <li><i className="fab fa-linkedin"></i></li>
+                    <li><i className="fab fa-youtube"></i></li>
+                    </ul>
+            </div>    
+        
+        </div>
+    </div>
 
   </div>
  </div>

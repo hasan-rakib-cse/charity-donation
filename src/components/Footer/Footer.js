@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <footer>
-           <h2>All Right Reserved @ By Rakib Hasan</h2>
+           <h2>&copy;2023 All Right Reserved</h2>
        </footer>
     );
 };

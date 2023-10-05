@@ -6,8 +6,8 @@
     letter-spacing: 4px;
 }
 .social-icon{
-text-align: center;
-margin-bottom: 25px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 .card-body ul>li{
 	display: inline;
@@ -32,7 +32,7 @@ margin-bottom: 25px;
 .total-budget {
     background-color: #ffecf0;
     height: auto!important;
-    padding: 80px 30px;
+    padding: 50px 30px;
     text-shadow: 4px 3px 7px #c39fbd;
 	height: 500px;
 }

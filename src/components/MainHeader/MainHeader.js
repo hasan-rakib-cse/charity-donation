@@ -12,11 +12,11 @@ const MainHeader = () => {
     
        <div className="background-charity">
            
-           <div className="amar">
+           <div className="container-bg">
 
              <div className="header-inner-text">
                
-                <h1>Rise Your Hand <br/> For Poor Families</h1>
+                <h1 className='main-heading'>Rise Your Hand <br/> For Poor Families</h1>
                 <button>Learn More</button>
              </div>
             
@@ -25,6 +25,7 @@ const MainHeader = () => {
       </div>
 
         
+        {/* Website-Title-and-subtext */}
 
       <div className="header-title" style={{backgroundColor:'#000',padding:'10px',color:'#fff',marginTop:'1px'}}>
           <h2>Welcome To Rakib's Charity</h2>
